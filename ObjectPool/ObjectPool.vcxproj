@@ -139,7 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CircularQueue.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MemoryPool.cpp" />
+    <ClCompile Include="ObjectPool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CircularQueue.h" />
+    <ClInclude Include="MemoryPool.h" />
+    <ClInclude Include="ObjectPool.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

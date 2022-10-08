@@ -2,5 +2,36 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MemoryPool.cpp">
+      <Filter>MemoryPool</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularQueue.cpp">
+      <Filter>MemoryPool\CircularQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPool.cpp">
+      <Filter>ObjectPool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MemoryPool">
+      <UniqueIdentifier>{158ec509-2846-434b-825e-cd25fbf906c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectPool">
+      <UniqueIdentifier>{bce181d8-f5a1-4ea1-9c0e-8695c24edcaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemoryPool\CircularQueue">
+      <UniqueIdentifier>{17497c2e-36fc-43d3-bb1b-503f81848cca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularQueue.h">
+      <Filter>MemoryPool\CircularQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>ObjectPool</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
